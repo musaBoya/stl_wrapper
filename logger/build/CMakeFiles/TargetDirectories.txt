@@ -1,0 +1,4 @@
+/home/musa/work/stl_wrapper/logger/build/CMakeFiles/cstmlib.dir
+/home/musa/work/stl_wrapper/logger/build/CMakeFiles/logger_example.dir
+/home/musa/work/stl_wrapper/logger/build/CMakeFiles/edit_cache.dir
+/home/musa/work/stl_wrapper/logger/build/CMakeFiles/rebuild_cache.dir

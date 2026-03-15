@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/musa/work/stl_wrapper/logger/build",
+  "command": "/usr/bin/g++ -I/home/musa/work/stl_wrapper/logger/include -g -std=gnu++20 -o CMakeFiles/cstmlib.dir/src/logging/logger.cpp.o -c /home/musa/work/stl_wrapper/logger/src/logging/logger.cpp",
+  "file": "/home/musa/work/stl_wrapper/logger/src/logging/logger.cpp"
+},
+{
+  "directory": "/home/musa/work/stl_wrapper/logger/build",
+  "command": "/usr/bin/g++ -I/home/musa/work/stl_wrapper/logger/include -g -std=gnu++20 -o CMakeFiles/logger_example.dir/examples/logger_example.cpp.o -c /home/musa/work/stl_wrapper/logger/examples/logger_example.cpp",
+  "file": "/home/musa/work/stl_wrapper/logger/examples/logger_example.cpp"
+}
+]
