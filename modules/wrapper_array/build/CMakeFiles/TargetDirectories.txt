@@ -1,0 +1,3 @@
+/home/musa/work/stl_wrapper/modules/wrapper_array/build/CMakeFiles/array_wrapper.dir
+/home/musa/work/stl_wrapper/modules/wrapper_array/build/CMakeFiles/edit_cache.dir
+/home/musa/work/stl_wrapper/modules/wrapper_array/build/CMakeFiles/rebuild_cache.dir

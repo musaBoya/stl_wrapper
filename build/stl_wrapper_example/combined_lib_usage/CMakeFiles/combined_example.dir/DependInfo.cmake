@@ -1,0 +1,20 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/musa/work/stl_wrapper/stl_wrapper_example/combined_lib_usage/main.cpp" "stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o" "gcc" "stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/musa/work/stl_wrapper/build/modules/logger/CMakeFiles/logger.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
