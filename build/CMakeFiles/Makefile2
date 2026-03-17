@@ -63,145 +63,145 @@ CMAKE_BINARY_DIR = /home/musa/work/stl_wrapper/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: modules/logger/all
-all: modules/wrapper_array/all
-all: stl_wrapper_example/combined_lib_usage/all
+all: logger/all
+all: wrapper_array/all
+all: examples/combined_lib_usage/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: modules/logger/preinstall
-preinstall: modules/wrapper_array/preinstall
-preinstall: stl_wrapper_example/combined_lib_usage/preinstall
+preinstall: logger/preinstall
+preinstall: wrapper_array/preinstall
+preinstall: examples/combined_lib_usage/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: modules/logger/clean
-clean: modules/wrapper_array/clean
-clean: stl_wrapper_example/combined_lib_usage/clean
+clean: logger/clean
+clean: wrapper_array/clean
+clean: examples/combined_lib_usage/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory modules/logger
+# Directory level rules for directory examples/combined_lib_usage
 
 # Recursive "all" directory target.
-modules/logger/all: modules/logger/CMakeFiles/logger.dir/all
-.PHONY : modules/logger/all
+examples/combined_lib_usage/all: examples/combined_lib_usage/CMakeFiles/combined_example.dir/all
+.PHONY : examples/combined_lib_usage/all
 
 # Recursive "preinstall" directory target.
-modules/logger/preinstall:
-.PHONY : modules/logger/preinstall
+examples/combined_lib_usage/preinstall:
+.PHONY : examples/combined_lib_usage/preinstall
 
 # Recursive "clean" directory target.
-modules/logger/clean: modules/logger/CMakeFiles/logger.dir/clean
-.PHONY : modules/logger/clean
+examples/combined_lib_usage/clean: examples/combined_lib_usage/CMakeFiles/combined_example.dir/clean
+.PHONY : examples/combined_lib_usage/clean
 
 #=============================================================================
-# Directory level rules for directory modules/wrapper_array
+# Directory level rules for directory logger
 
 # Recursive "all" directory target.
-modules/wrapper_array/all: modules/wrapper_array/CMakeFiles/array_wrapper.dir/all
-.PHONY : modules/wrapper_array/all
+logger/all: logger/CMakeFiles/logger.dir/all
+.PHONY : logger/all
 
 # Recursive "preinstall" directory target.
-modules/wrapper_array/preinstall:
-.PHONY : modules/wrapper_array/preinstall
+logger/preinstall:
+.PHONY : logger/preinstall
 
 # Recursive "clean" directory target.
-modules/wrapper_array/clean: modules/wrapper_array/CMakeFiles/array_wrapper.dir/clean
-.PHONY : modules/wrapper_array/clean
+logger/clean: logger/CMakeFiles/logger.dir/clean
+.PHONY : logger/clean
 
 #=============================================================================
-# Directory level rules for directory stl_wrapper_example/combined_lib_usage
+# Directory level rules for directory wrapper_array
 
 # Recursive "all" directory target.
-stl_wrapper_example/combined_lib_usage/all: stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/all
-.PHONY : stl_wrapper_example/combined_lib_usage/all
+wrapper_array/all: wrapper_array/CMakeFiles/wrapper_array_example.dir/all
+.PHONY : wrapper_array/all
 
 # Recursive "preinstall" directory target.
-stl_wrapper_example/combined_lib_usage/preinstall:
-.PHONY : stl_wrapper_example/combined_lib_usage/preinstall
+wrapper_array/preinstall:
+.PHONY : wrapper_array/preinstall
 
 # Recursive "clean" directory target.
-stl_wrapper_example/combined_lib_usage/clean: stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/clean
-.PHONY : stl_wrapper_example/combined_lib_usage/clean
+wrapper_array/clean: wrapper_array/CMakeFiles/wrapper_array_example.dir/clean
+.PHONY : wrapper_array/clean
 
 #=============================================================================
-# Target rules for target modules/logger/CMakeFiles/logger.dir
+# Target rules for target logger/CMakeFiles/logger.dir
 
 # All Build rule for target.
-modules/logger/CMakeFiles/logger.dir/all:
-	$(MAKE) $(MAKESILENT) -f modules/logger/CMakeFiles/logger.dir/build.make modules/logger/CMakeFiles/logger.dir/depend
-	$(MAKE) $(MAKESILENT) -f modules/logger/CMakeFiles/logger.dir/build.make modules/logger/CMakeFiles/logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=5,6 "Built target logger"
-.PHONY : modules/logger/CMakeFiles/logger.dir/all
+logger/CMakeFiles/logger.dir/all:
+	$(MAKE) $(MAKESILENT) -f logger/CMakeFiles/logger.dir/build.make logger/CMakeFiles/logger.dir/depend
+	$(MAKE) $(MAKESILENT) -f logger/CMakeFiles/logger.dir/build.make logger/CMakeFiles/logger.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=3,4 "Built target logger"
+.PHONY : logger/CMakeFiles/logger.dir/all
 
 # Build rule for subdir invocation for target.
-modules/logger/CMakeFiles/logger.dir/rule: cmake_check_build_system
+logger/CMakeFiles/logger.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/logger/CMakeFiles/logger.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger/CMakeFiles/logger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 0
-.PHONY : modules/logger/CMakeFiles/logger.dir/rule
+.PHONY : logger/CMakeFiles/logger.dir/rule
 
 # Convenience name for target.
-logger: modules/logger/CMakeFiles/logger.dir/rule
+logger: logger/CMakeFiles/logger.dir/rule
 .PHONY : logger
 
 # clean rule for target.
-modules/logger/CMakeFiles/logger.dir/clean:
-	$(MAKE) $(MAKESILENT) -f modules/logger/CMakeFiles/logger.dir/build.make modules/logger/CMakeFiles/logger.dir/clean
-.PHONY : modules/logger/CMakeFiles/logger.dir/clean
+logger/CMakeFiles/logger.dir/clean:
+	$(MAKE) $(MAKESILENT) -f logger/CMakeFiles/logger.dir/build.make logger/CMakeFiles/logger.dir/clean
+.PHONY : logger/CMakeFiles/logger.dir/clean
 
 #=============================================================================
-# Target rules for target modules/wrapper_array/CMakeFiles/array_wrapper.dir
+# Target rules for target wrapper_array/CMakeFiles/wrapper_array_example.dir
 
 # All Build rule for target.
-modules/wrapper_array/CMakeFiles/array_wrapper.dir/all:
-	$(MAKE) $(MAKESILENT) -f modules/wrapper_array/CMakeFiles/array_wrapper.dir/build.make modules/wrapper_array/CMakeFiles/array_wrapper.dir/depend
-	$(MAKE) $(MAKESILENT) -f modules/wrapper_array/CMakeFiles/array_wrapper.dir/build.make modules/wrapper_array/CMakeFiles/array_wrapper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=1,2 "Built target array_wrapper"
-.PHONY : modules/wrapper_array/CMakeFiles/array_wrapper.dir/all
+wrapper_array/CMakeFiles/wrapper_array_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=5,6 "Built target wrapper_array_example"
+.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/all
 
 # Build rule for subdir invocation for target.
-modules/wrapper_array/CMakeFiles/array_wrapper.dir/rule: cmake_check_build_system
+wrapper_array/CMakeFiles/wrapper_array_example.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 modules/wrapper_array/CMakeFiles/array_wrapper.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/CMakeFiles/wrapper_array_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 0
-.PHONY : modules/wrapper_array/CMakeFiles/array_wrapper.dir/rule
+.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
 
 # Convenience name for target.
-array_wrapper: modules/wrapper_array/CMakeFiles/array_wrapper.dir/rule
-.PHONY : array_wrapper
+wrapper_array_example: wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
+.PHONY : wrapper_array_example
 
 # clean rule for target.
-modules/wrapper_array/CMakeFiles/array_wrapper.dir/clean:
-	$(MAKE) $(MAKESILENT) -f modules/wrapper_array/CMakeFiles/array_wrapper.dir/build.make modules/wrapper_array/CMakeFiles/array_wrapper.dir/clean
-.PHONY : modules/wrapper_array/CMakeFiles/array_wrapper.dir/clean
+wrapper_array/CMakeFiles/wrapper_array_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/clean
+.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/clean
 
 #=============================================================================
-# Target rules for target stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir
+# Target rules for target examples/combined_lib_usage/CMakeFiles/combined_example.dir
 
 # All Build rule for target.
-stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/all: modules/logger/CMakeFiles/logger.dir/all
-	$(MAKE) $(MAKESILENT) -f stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/build.make stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/build.make stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=3,4 "Built target combined_example"
-.PHONY : stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/all
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/all: logger/CMakeFiles/logger.dir/all
+	$(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=1,2 "Built target combined_example"
+.PHONY : examples/combined_lib_usage/CMakeFiles/combined_example.dir/all
 
 # Build rule for subdir invocation for target.
-stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/rule: cmake_check_build_system
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/combined_lib_usage/CMakeFiles/combined_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 0
-.PHONY : stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/rule
+.PHONY : examples/combined_lib_usage/CMakeFiles/combined_example.dir/rule
 
 # Convenience name for target.
-combined_example: stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/rule
+combined_example: examples/combined_lib_usage/CMakeFiles/combined_example.dir/rule
 .PHONY : combined_example
 
 # clean rule for target.
-stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/build.make stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/clean
-.PHONY : stl_wrapper_example/combined_lib_usage/CMakeFiles/combined_example.dir/clean
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/clean
+.PHONY : examples/combined_lib_usage/CMakeFiles/combined_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

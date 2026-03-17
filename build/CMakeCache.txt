@@ -224,22 +224,13 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-array_wrapper_BINARY_DIR:STATIC=/home/musa/work/stl_wrapper/build/modules/wrapper_array
+combined_example_BINARY_DIR:STATIC=/home/musa/work/stl_wrapper/build/examples/combined_lib_usage
 
 //Value Computed by CMake
-array_wrapper_IS_TOP_LEVEL:STATIC=OFF
+combined_example_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-array_wrapper_SOURCE_DIR:STATIC=/home/musa/work/stl_wrapper/modules/wrapper_array
-
-//Value Computed by CMake
-borsaTakipV2_BINARY_DIR:STATIC=/home/musa/work/stl_wrapper/build/modules/wrapper_array
-
-//Value Computed by CMake
-borsaTakipV2_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-borsaTakipV2_SOURCE_DIR:STATIC=/home/musa/work/stl_wrapper/modules/wrapper_array
+combined_example_SOURCE_DIR:STATIC=/home/musa/work/stl_wrapper/examples/combined_lib_usage
 
 //Value Computed by CMake
 stl_wrapper_BINARY_DIR:STATIC=/home/musa/work/stl_wrapper/build
@@ -249,6 +240,15 @@ stl_wrapper_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 stl_wrapper_SOURCE_DIR:STATIC=/home/musa/work/stl_wrapper
+
+//Value Computed by CMake
+wrapper_array_BINARY_DIR:STATIC=/home/musa/work/stl_wrapper/build/wrapper_array
+
+//Value Computed by CMake
+wrapper_array_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+wrapper_array_SOURCE_DIR:STATIC=/home/musa/work/stl_wrapper/wrapper_array
 
 
 ########################
