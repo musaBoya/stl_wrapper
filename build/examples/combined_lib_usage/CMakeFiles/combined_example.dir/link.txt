@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/combined_example.dir/main.cpp.o -o combined_example  ../../logger/liblogger.a 
