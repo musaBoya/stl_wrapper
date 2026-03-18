@@ -1,4 +1,4 @@
-# Install script for directory: /home/musa/work/stl_wrapper/wrapper_array
+# Install script for directory: /home/musa/work/stl_wrapper/wrapped_array
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

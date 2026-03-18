@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles /home/musa/work/stl_wrapper/build/wrapper_array//CMakeFiles/progress.marks
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/all
+	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles /home/musa/work/stl_wrapper/build/examples/logger_example//CMakeFiles/progress.marks
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/logger_example/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/clean
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/logger_example/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/preinstall
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/logger_example/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/preinstall
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/logger_example/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
 	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+examples/logger_example/CMakeFiles/logger_example.dir/rule:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/logger_example/CMakeFiles/logger_example.dir/rule
+.PHONY : examples/logger_example/CMakeFiles/logger_example.dir/rule
+
+# Convenience name for target.
+logger_example: examples/logger_example/CMakeFiles/logger_example.dir/rule
+.PHONY : logger_example
+
+# fast build rule for target.
+logger_example/fast:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/logger_example/CMakeFiles/logger_example.dir/build.make examples/logger_example/CMakeFiles/logger_example.dir/build
+.PHONY : logger_example/fast
+
+logger_example.o: logger_example.cpp.o
+.PHONY : logger_example.o
+
+# target to build an object file
+logger_example.cpp.o:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/logger_example/CMakeFiles/logger_example.dir/build.make examples/logger_example/CMakeFiles/logger_example.dir/logger_example.cpp.o
+.PHONY : logger_example.cpp.o
+
+logger_example.i: logger_example.cpp.i
+.PHONY : logger_example.i
+
+# target to preprocess a source file
+logger_example.cpp.i:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/logger_example/CMakeFiles/logger_example.dir/build.make examples/logger_example/CMakeFiles/logger_example.dir/logger_example.cpp.i
+.PHONY : logger_example.cpp.i
+
+logger_example.s: logger_example.cpp.s
+.PHONY : logger_example.s
+
+# target to generate assembly for a file
+logger_example.cpp.s:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/logger_example/CMakeFiles/logger_example.dir/build.make examples/logger_example/CMakeFiles/logger_example.dir/logger_example.cpp.s
+.PHONY : logger_example.cpp.s
 
 # Help Target
 help:
@@ -124,6 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... logger_example"
+	@echo "... logger_example.o"
+	@echo "... logger_example.i"
+	@echo "... logger_example.s"
 .PHONY : help
 
 

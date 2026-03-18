@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "cstmlib/logging/logger.hpp"
+#include "logger.hpp"
 
 int main()
 {

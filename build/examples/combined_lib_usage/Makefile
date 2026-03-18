@@ -130,29 +130,29 @@ combined_example/fast:
 	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/build
 .PHONY : combined_example/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+combined_lib_example.o: combined_lib_example.cpp.o
+.PHONY : combined_lib_example.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o
-.PHONY : main.cpp.o
+combined_lib_example.cpp.o:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o
+.PHONY : combined_lib_example.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+combined_lib_example.i: combined_lib_example.cpp.i
+.PHONY : combined_lib_example.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.i
-.PHONY : main.cpp.i
+combined_lib_example.cpp.i:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.i
+.PHONY : combined_lib_example.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+combined_lib_example.s: combined_lib_example.cpp.s
+.PHONY : combined_lib_example.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.s
-.PHONY : main.cpp.s
+combined_lib_example.cpp.s:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.s
+.PHONY : combined_lib_example.cpp.s
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... combined_example"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... combined_lib_example.o"
+	@echo "... combined_lib_example.i"
+	@echo "... combined_lib_example.s"
 .PHONY : help
 
 

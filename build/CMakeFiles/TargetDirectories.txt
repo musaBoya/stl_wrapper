@@ -3,8 +3,14 @@
 /home/musa/work/stl_wrapper/build/logger/CMakeFiles/logger.dir
 /home/musa/work/stl_wrapper/build/logger/CMakeFiles/edit_cache.dir
 /home/musa/work/stl_wrapper/build/logger/CMakeFiles/rebuild_cache.dir
-/home/musa/work/stl_wrapper/build/wrapper_array/CMakeFiles/edit_cache.dir
-/home/musa/work/stl_wrapper/build/wrapper_array/CMakeFiles/rebuild_cache.dir
+/home/musa/work/stl_wrapper/build/wrapped_array/CMakeFiles/edit_cache.dir
+/home/musa/work/stl_wrapper/build/wrapped_array/CMakeFiles/rebuild_cache.dir
 /home/musa/work/stl_wrapper/build/examples/combined_lib_usage/CMakeFiles/combined_example.dir
 /home/musa/work/stl_wrapper/build/examples/combined_lib_usage/CMakeFiles/edit_cache.dir
 /home/musa/work/stl_wrapper/build/examples/combined_lib_usage/CMakeFiles/rebuild_cache.dir
+/home/musa/work/stl_wrapper/build/examples/logger_example/CMakeFiles/logger_example.dir
+/home/musa/work/stl_wrapper/build/examples/logger_example/CMakeFiles/edit_cache.dir
+/home/musa/work/stl_wrapper/build/examples/logger_example/CMakeFiles/rebuild_cache.dir
+/home/musa/work/stl_wrapper/build/examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir
+/home/musa/work/stl_wrapper/build/examples/wrapper_array_example/CMakeFiles/edit_cache.dir
+/home/musa/work/stl_wrapper/build/examples/wrapper_array_example/CMakeFiles/rebuild_cache.dir

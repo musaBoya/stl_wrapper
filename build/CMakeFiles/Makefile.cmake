@@ -11,8 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../examples/combined_lib_usage/CMakeLists.txt"
+  "../examples/logger_example/CMakeLists.txt"
+  "../examples/wrapper_array_example/CMakeLists.txt"
   "../logger/CMakeLists.txt"
-  "../wrapper_array/CMakeLists.txt"
+  "../wrapped_array/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
@@ -39,12 +41,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "logger/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "wrapper_array/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "wrapped_array/CMakeFiles/CMakeDirectoryInformation.cmake"
   "examples/combined_lib_usage/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "examples/logger_example/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "examples/wrapper_array_example/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "logger/CMakeFiles/logger.dir/DependInfo.cmake"
   "examples/combined_lib_usage/CMakeFiles/combined_example.dir/DependInfo.cmake"
+  "examples/logger_example/CMakeFiles/logger_example.dir/DependInfo.cmake"
+  "examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/DependInfo.cmake"
   )

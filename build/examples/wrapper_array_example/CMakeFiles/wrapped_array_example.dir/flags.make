@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/musa/work/stl_wrapper/logger/include -I/home/musa/work/stl_wrapper/wrapped_array
+CXX_INCLUDES = -I/home/musa/work/stl_wrapper/wrapped_array
 
 CXX_FLAGS = -g -Wall -Wextra -Wpedantic -std=c++17
 

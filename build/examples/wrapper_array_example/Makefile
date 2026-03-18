@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles /home/musa/work/stl_wrapper/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles /home/musa/work/stl_wrapper/build/examples/wrapper_array_example//CMakeFiles/progress.marks
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/wrapper_array_example/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/wrapper_array_example/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,70 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/wrapper_array_example/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/wrapper_array_example/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named logger
+# Convenience name for target.
+examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/rule:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/rule
+.PHONY : examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/rule
 
-# Build rule for target.
-logger: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger
-.PHONY : logger
-
-# fast build rule for target.
-logger/fast:
-	$(MAKE) $(MAKESILENT) -f logger/CMakeFiles/logger.dir/build.make logger/CMakeFiles/logger.dir/build
-.PHONY : logger/fast
-
-#=============================================================================
-# Target rules for targets named combined_example
-
-# Build rule for target.
-combined_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 combined_example
-.PHONY : combined_example
-
-# fast build rule for target.
-combined_example/fast:
-	$(MAKE) $(MAKESILENT) -f examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make examples/combined_lib_usage/CMakeFiles/combined_example.dir/build
-.PHONY : combined_example/fast
-
-#=============================================================================
-# Target rules for targets named logger_example
-
-# Build rule for target.
-logger_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logger_example
-.PHONY : logger_example
-
-# fast build rule for target.
-logger_example/fast:
-	$(MAKE) $(MAKESILENT) -f examples/logger_example/CMakeFiles/logger_example.dir/build.make examples/logger_example/CMakeFiles/logger_example.dir/build
-.PHONY : logger_example/fast
-
-#=============================================================================
-# Target rules for targets named wrapped_array_example
-
-# Build rule for target.
-wrapped_array_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapped_array_example
+# Convenience name for target.
+wrapped_array_example: examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/rule
 .PHONY : wrapped_array_example
 
 # fast build rule for target.
 wrapped_array_example/fast:
-	$(MAKE) $(MAKESILENT) -f examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build.make examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build.make examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build
 .PHONY : wrapped_array_example/fast
+
+wrapped_array_example.o: wrapped_array_example.cpp.o
+.PHONY : wrapped_array_example.o
+
+# target to build an object file
+wrapped_array_example.cpp.o:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build.make examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/wrapped_array_example.cpp.o
+.PHONY : wrapped_array_example.cpp.o
+
+wrapped_array_example.i: wrapped_array_example.cpp.i
+.PHONY : wrapped_array_example.i
+
+# target to preprocess a source file
+wrapped_array_example.cpp.i:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build.make examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/wrapped_array_example.cpp.i
+.PHONY : wrapped_array_example.cpp.i
+
+wrapped_array_example.s: wrapped_array_example.cpp.s
+.PHONY : wrapped_array_example.s
+
+# target to generate assembly for a file
+wrapped_array_example.cpp.s:
+	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/build.make examples/wrapper_array_example/CMakeFiles/wrapped_array_example.dir/wrapped_array_example.cpp.s
+.PHONY : wrapped_array_example.cpp.s
 
 # Help Target
 help:
@@ -176,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... combined_example"
-	@echo "... logger"
-	@echo "... logger_example"
 	@echo "... wrapped_array_example"
+	@echo "... wrapped_array_example.o"
+	@echo "... wrapped_array_example.i"
+	@echo "... wrapped_array_example.s"
 .PHONY : help
 
 
@@ -191,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
