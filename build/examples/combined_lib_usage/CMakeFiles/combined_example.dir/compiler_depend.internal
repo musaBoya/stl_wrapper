@@ -203,5 +203,5 @@ examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o
  /usr/include/c++/11/bits/std_mutex.h
  /usr/include/c++/11/bits/unique_lock.h
  /home/musa/work/stl_wrapper/logger/include/log_level.hpp
- /home/musa/work/stl_wrapper/wrapper_array/include/wrapper_array.hpp
+ /home/musa/work/stl_wrapper/wrapper_array/wrapper_array.hpp
 

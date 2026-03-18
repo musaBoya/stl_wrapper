@@ -1,6 +1,3 @@
-cmake_minimum_required(VERSION 3.10)
-project(combined_example)
-
 add_executable(combined_example
     main.cpp
 )
@@ -8,8 +5,10 @@ add_executable(combined_example
 target_link_libraries(combined_example
     PRIVATE
         logger
-        wrapper_array
+        wrapped_array
 )
+
+target_compile_features(combined_example PRIVATE cxx_std_17)
 
 if(MSVC)
     target_compile_options(combined_example PRIVATE /W4)
