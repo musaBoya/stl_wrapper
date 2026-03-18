@@ -116,44 +116,6 @@ depend:
 	cd /home/musa/work/stl_wrapper/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-wrapper_array/CMakeFiles/wrapper_array_example.dir/rule:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
-.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
-
-# Convenience name for target.
-wrapper_array_example: wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
-.PHONY : wrapper_array_example
-
-# fast build rule for target.
-wrapper_array_example/fast:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/build
-.PHONY : wrapper_array_example/fast
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	cd /home/musa/work/stl_wrapper/build && $(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... wrapper_array_example"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 

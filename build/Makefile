@@ -130,19 +130,6 @@ logger/fast:
 .PHONY : logger/fast
 
 #=============================================================================
-# Target rules for targets named wrapper_array_example
-
-# Build rule for target.
-wrapper_array_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array_example
-.PHONY : wrapper_array_example
-
-# fast build rule for target.
-wrapper_array_example/fast:
-	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/build
-.PHONY : wrapper_array_example/fast
-
-#=============================================================================
 # Target rules for targets named combined_example
 
 # Build rule for target.
@@ -165,7 +152,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... combined_example"
 	@echo "... logger"
-	@echo "... wrapper_array_example"
 .PHONY : help
 
 

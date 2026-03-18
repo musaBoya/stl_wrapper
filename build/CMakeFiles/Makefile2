@@ -114,7 +114,7 @@ logger/clean: logger/CMakeFiles/logger.dir/clean
 # Directory level rules for directory wrapper_array
 
 # Recursive "all" directory target.
-wrapper_array/all: wrapper_array/CMakeFiles/wrapper_array_example.dir/all
+wrapper_array/all:
 .PHONY : wrapper_array/all
 
 # Recursive "preinstall" directory target.
@@ -122,7 +122,7 @@ wrapper_array/preinstall:
 .PHONY : wrapper_array/preinstall
 
 # Recursive "clean" directory target.
-wrapper_array/clean: wrapper_array/CMakeFiles/wrapper_array_example.dir/clean
+wrapper_array/clean:
 .PHONY : wrapper_array/clean
 
 #=============================================================================
@@ -150,32 +150,6 @@ logger: logger/CMakeFiles/logger.dir/rule
 logger/CMakeFiles/logger.dir/clean:
 	$(MAKE) $(MAKESILENT) -f logger/CMakeFiles/logger.dir/build.make logger/CMakeFiles/logger.dir/clean
 .PHONY : logger/CMakeFiles/logger.dir/clean
-
-#=============================================================================
-# Target rules for target wrapper_array/CMakeFiles/wrapper_array_example.dir
-
-# All Build rule for target.
-wrapper_array/CMakeFiles/wrapper_array_example.dir/all:
-	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=5,6 "Built target wrapper_array_example"
-.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/all
-
-# Build rule for subdir invocation for target.
-wrapper_array/CMakeFiles/wrapper_array_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapper_array/CMakeFiles/wrapper_array_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/musa/work/stl_wrapper/build/CMakeFiles 0
-.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
-
-# Convenience name for target.
-wrapper_array_example: wrapper_array/CMakeFiles/wrapper_array_example.dir/rule
-.PHONY : wrapper_array_example
-
-# clean rule for target.
-wrapper_array/CMakeFiles/wrapper_array_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f wrapper_array/CMakeFiles/wrapper_array_example.dir/build.make wrapper_array/CMakeFiles/wrapper_array_example.dir/clean
-.PHONY : wrapper_array/CMakeFiles/wrapper_array_example.dir/clean
 
 #=============================================================================
 # Target rules for target examples/combined_lib_usage/CMakeFiles/combined_example.dir

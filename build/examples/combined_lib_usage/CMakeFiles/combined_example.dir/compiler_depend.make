@@ -202,10 +202,10 @@ examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o: ../examp
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   ../logger/include/log_level.hpp \
-  ../wrapper_array/include/wrapper_array.hpp
+  ../wrapper_array/wrapper_array.hpp
 
 
-../wrapper_array/include/wrapper_array.hpp:
+../wrapper_array/wrapper_array.hpp:
 
 /usr/include/c++/11/bits/unique_lock.h:
 

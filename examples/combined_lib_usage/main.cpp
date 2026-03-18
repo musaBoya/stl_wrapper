@@ -10,7 +10,7 @@ int main()
 
     Logger::info("Combined example started");
 
-    array_s<int, 5> arr;
+    array_s<int, 5> arr{};
 
     Logger::info("Filling array");
 
@@ -29,14 +29,7 @@ int main()
 
     Logger::info("Testing safe access");
 
-    try
-    {
-        arr.at(10);
-    }
-    catch (const std::exception& e)
-    {
-        Logger::error(std::string("Exception: ") + e.what());
-    }
+
 
     Logger::info("Combined example finished");
 
