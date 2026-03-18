@@ -49,12 +49,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/musa/work/stl_wrapper/build/wrapper_array/cmake_install.cmake")
+  include("/home/musa/work/stl_wrapper/build/wrapped_array/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/musa/work/stl_wrapper/build/examples/combined_lib_usage/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/musa/work/stl_wrapper/build/examples/logger_example/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/musa/work/stl_wrapper/build/examples/wrapper_array_example/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

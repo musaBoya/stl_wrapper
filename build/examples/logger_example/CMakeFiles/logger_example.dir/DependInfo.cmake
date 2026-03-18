@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/musa/work/stl_wrapper/examples/combined_lib_usage/combined_lib_example.cpp" "examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o" "gcc" "examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o.d"
+  "/home/musa/work/stl_wrapper/examples/logger_example/logger_example.cpp" "examples/logger_example/CMakeFiles/logger_example.dir/logger_example.cpp.o" "gcc" "examples/logger_example/CMakeFiles/logger_example.dir/logger_example.cpp.o.d"
   )
 
 # Targets to which this target links.

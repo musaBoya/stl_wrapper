@@ -69,28 +69,28 @@ include examples/combined_lib_usage/CMakeFiles/combined_example.dir/progress.mak
 # Include the compile flags for this target's objects.
 include examples/combined_lib_usage/CMakeFiles/combined_example.dir/flags.make
 
-examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o: examples/combined_lib_usage/CMakeFiles/combined_example.dir/flags.make
-examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o: ../examples/combined_lib_usage/main.cpp
-examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o: examples/combined_lib_usage/CMakeFiles/combined_example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o"
-	cd /home/musa/work/stl_wrapper/build/examples/combined_lib_usage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o -MF CMakeFiles/combined_example.dir/main.cpp.o.d -o CMakeFiles/combined_example.dir/main.cpp.o -c /home/musa/work/stl_wrapper/examples/combined_lib_usage/main.cpp
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o: examples/combined_lib_usage/CMakeFiles/combined_example.dir/flags.make
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o: ../examples/combined_lib_usage/combined_lib_example.cpp
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o: examples/combined_lib_usage/CMakeFiles/combined_example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/musa/work/stl_wrapper/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o"
+	cd /home/musa/work/stl_wrapper/build/examples/combined_lib_usage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o -MF CMakeFiles/combined_example.dir/combined_lib_example.cpp.o.d -o CMakeFiles/combined_example.dir/combined_lib_example.cpp.o -c /home/musa/work/stl_wrapper/examples/combined_lib_usage/combined_lib_example.cpp
 
-examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/combined_example.dir/main.cpp.i"
-	cd /home/musa/work/stl_wrapper/build/examples/combined_lib_usage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/musa/work/stl_wrapper/examples/combined_lib_usage/main.cpp > CMakeFiles/combined_example.dir/main.cpp.i
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/combined_example.dir/combined_lib_example.cpp.i"
+	cd /home/musa/work/stl_wrapper/build/examples/combined_lib_usage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/musa/work/stl_wrapper/examples/combined_lib_usage/combined_lib_example.cpp > CMakeFiles/combined_example.dir/combined_lib_example.cpp.i
 
-examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/combined_example.dir/main.cpp.s"
-	cd /home/musa/work/stl_wrapper/build/examples/combined_lib_usage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/musa/work/stl_wrapper/examples/combined_lib_usage/main.cpp -o CMakeFiles/combined_example.dir/main.cpp.s
+examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/combined_example.dir/combined_lib_example.cpp.s"
+	cd /home/musa/work/stl_wrapper/build/examples/combined_lib_usage && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/musa/work/stl_wrapper/examples/combined_lib_usage/combined_lib_example.cpp -o CMakeFiles/combined_example.dir/combined_lib_example.cpp.s
 
 # Object files for target combined_example
 combined_example_OBJECTS = \
-"CMakeFiles/combined_example.dir/main.cpp.o"
+"CMakeFiles/combined_example.dir/combined_lib_example.cpp.o"
 
 # External object files for target combined_example
 combined_example_EXTERNAL_OBJECTS =
 
-bin/combined_example: examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o
+bin/combined_example: examples/combined_lib_usage/CMakeFiles/combined_example.dir/combined_lib_example.cpp.o
 bin/combined_example: examples/combined_lib_usage/CMakeFiles/combined_example.dir/build.make
 bin/combined_example: lib/liblogger.a
 bin/combined_example: examples/combined_lib_usage/CMakeFiles/combined_example.dir/link.txt

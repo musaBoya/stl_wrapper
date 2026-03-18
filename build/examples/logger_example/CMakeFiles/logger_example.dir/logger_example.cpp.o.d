@@ -1,5 +1,5 @@
-examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o: \
- /home/musa/work/stl_wrapper/examples/combined_lib_usage/main.cpp \
+examples/logger_example/CMakeFiles/logger_example.dir/logger_example.cpp.o: \
+ /home/musa/work/stl_wrapper/examples/logger_example/logger_example.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -159,5 +159,4 @@ examples/combined_lib_usage/CMakeFiles/combined_example.dir/main.cpp.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/musa/work/stl_wrapper/logger/include/log_level.hpp \
- /home/musa/work/stl_wrapper/wrapper_array/wrapper_array.hpp
+ /home/musa/work/stl_wrapper/logger/include/log_level.hpp

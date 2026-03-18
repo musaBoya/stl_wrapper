@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "logger.hpp"
-#include "wrapper_array.hpp"
+#include "wrapped_array.hpp"
 using namespace cstmlib::logging;
 
 int main()
@@ -28,7 +28,6 @@ int main()
     }
 
     Logger::info("Testing safe access");
-
 
 
     Logger::info("Combined example finished");
