@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/logger_example.dir/logger_example.cpp.o -o ../../bin/logger_example  ../../lib/liblogger.a 
