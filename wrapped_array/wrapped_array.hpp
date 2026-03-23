@@ -4,6 +4,7 @@
 #include <iostream>
 #include <array>
 #include <stdexcept>
+#include <string>
 
 template <typename T, std::size_t N>
 class array_s {
@@ -20,13 +21,7 @@ public:
     
     T& operator[](std::size_t index) {
         if (index >= N) {
-            // Lordum, burada strateji size ait:
-            // 1. Hata fırlatabiliriz (std::out_of_range)
-            // 2. Bir log basıp programı durdurabiliriz (assert)
-            // 3. Varsayılan bir değer döndürebiliriz (pek önerilmez)
-            
-            std::cerr << "Hata: " << index << " indeksi gecersiz! Maksimum: " << N-1 << std::endl;
-            return _internal_data[0]; // Şimdilik ilk elemanı döndürelim (Dummy)
+            throw std::out_of_range(std::to_string(index) + " indeksi gecersiz! Maksimum: " + std::to_string(N-1));
         }
         return _internal_data[index];
     }

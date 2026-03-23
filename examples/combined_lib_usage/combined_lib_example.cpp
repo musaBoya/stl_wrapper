@@ -29,16 +29,15 @@ int main()
 
     Logger::info("Testing safe access");
 
-/*
-    try
+try
     {
-        arr.at(10);
+        arr[10];
     }
     catch (const std::exception& e)
     {
         Logger::error(std::string("Exception: ") + e.what());
     }
-*/
+
     Logger::info("Combined example finished");
 
     return 0;
