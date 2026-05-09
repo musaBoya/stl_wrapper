@@ -1,32 +1,44 @@
 #ifndef WRAPPER_ARRAY_HPP
 #define WRAPPER_ARRAY_HPP
 
-#include <iostream>
 #include <array>
+#include <initializer_list>
 #include <stdexcept>
+#include <string>
 
 template <typename T, std::size_t N>
 class array_s {
 private:
-    std::array<T, N> _internal_data;
+    std::array<T, N> _internal_data{};
 
 public:
     array_s(std::initializer_list<T> list) {
         std::size_t i = 0;
-        for (auto& item : list) {
-            if (i < N) _internal_data[i++] = item;
+        for (const auto& item : list) {
+            if (i < N) {
+                _internal_data[i++] = item;
+            }
         }
     }
-    
+
     T& operator[](std::size_t index) {
+        return _internal_data[index];
+    }
+
+    const T& operator[](std::size_t index) const {
+        return _internal_data[index];
+    }
+
+    T& at(std::size_t index) {
         if (index >= N) {
-            // Lordum, burada strateji size ait:
-            // 1. Hata fırlatabiliriz (std::out_of_range)
-            // 2. Bir log basıp programı durdurabiliriz (assert)
-            // 3. Varsayılan bir değer döndürebiliriz (pek önerilmez)
-            
-            std::cerr << "Hata: " << index << " indeksi gecersiz! Maksimum: " << N-1 << std::endl;
-            return _internal_data[0]; // Şimdilik ilk elemanı döndürelim (Dummy)
+            throw std::out_of_range("array_s::at - index out of range");
+        }
+        return _internal_data[index];
+    }
+
+    const T& at(std::size_t index) const {
+        if (index >= N) {
+            throw std::out_of_range("array_s::at - index out of range");
         }
         return _internal_data[index];
     }
